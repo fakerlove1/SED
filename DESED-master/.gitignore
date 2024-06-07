@@ -1,0 +1,81 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+# Added, mac pycharm
+.idea/
+.DS_Store
+
+# In the zenodo repos
+# Audio folder
+*/audio/
+
+# Metadata folder
+data/generated_soundscapes/
+data/soundbank
+data/real/audio
+
+# Download real
+tmp/
+
+# Generated synthetic
+synthetic/src/tests/generated/
+tests/generated/
+
+# Creation Zenodo datasets
+synthetic/license_eval.tsv
+synthetic/license_training.tsv
+license_vimeo.tsv
+license_public_eval.tsv
+tar.gz/
+*.tar.gz
+
+# Other
+dcase2019/
+dataset/
+create_license.py
+create_tar.sh
+
+# Images
+*.key
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Sphinx documentation
+docs/_build/
+
+# Log:
+*.log
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/

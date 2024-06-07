@@ -1,0 +1,36 @@
+{
+  "label": {
+    "proba": 0.1,
+    "co-occurences": {
+      "max_events": 8,
+      "mean_events": 3,
+      "classes": [
+        "label",
+        "label_nOn",
+        "label_nOff"
+      ],
+      "probas": [
+        0.27,
+        0.18,
+        0.55
+      ]
+    }
+  },
+  "label_nOn": {
+    "proba": 0.1,
+    "co-occurences": {
+      "max_events": 9,
+      "mean_events": 4,
+      "classes": [
+        "label_nOn",
+        "label_nOn_nOff",
+        "label_nOff"
+      ],
+      "probas": [
+        0.6,
+        0.1,
+        0.3
+      ]
+    }
+  }
+}
